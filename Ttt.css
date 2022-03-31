@@ -1,0 +1,162 @@
+body{
+  margin: 0;
+  background-color: black;
+}
+
+.logo{
+  float: left;
+  font-size: 1.6rem;
+}
+
+.navbar{
+  background-color: rgba(143, 78, 41, 0.747);
+  height: 90px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  width: 85%;
+  height: 95px;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: absolute;
+}
+
+.nav-list{
+  margin-top: 10px;
+}
+
+.nav-items{
+  list-style-type: none;
+  float: right;
+}
+
+.links{
+  display: inline;
+}
+
+.active.link:hover{
+  border: 0;
+  color: rgb(192, 159, 110);
+  border-bottom: 2px solid whitesmoke;
+  
+}
+
+.link{
+  text-decoration: none;
+  border-right: 2px solid whitesmoke;
+  margin: 0 10px;
+  padding: 0.5rem 0.5rem;
+  color: black;
+}
+ 
+.containermi{
+  width: 100%;
+  padding-right: var(.75rem);
+  padding-left: var(.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.containerhome{
+  margin-top: 120px;
+  margin-left: 100px;
+}
+
+.wayhome{
+  margin-bottom: 150px;
+
+}
+
+.athome{
+  width: 50%;
+}
+
+#into {
+  color: rgba(245, 245, 245, 0.8);
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.4rem;
+  word-spacing: 3px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#job {
+  font-family: "Open Sans";
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: rgb(245, 245, 245);
+}
+
+.into {
+  color: rgba(245, 245, 245, 0.8);
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.2rem;
+  word-spacing: 3px;
+  padding-bottom: 30px;
+}
+
+#name {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  font-weight: 650;
+  color: rgb(245, 245, 245);
+}
+
+.hireme{
+  border-radius: 5px;
+  border: 1px;
+  color: #f5f5f5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  width: 100%;
+  min-width: 50px;
+  max-width: 300px;
+  margin-right: 1rem;
+  background-color: rgba(143, 78, 41, 0.747);
+}
+
+.hireme:hover{
+  background-color: black;
+  border: 1px solid rgb(119, 79, 20);
+}
+
+.download{
+  border: 1px solid rgba(245, 245, 245,0.4);
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.download:hover{
+  background-color:  rgb(192, 159, 110);
+  border: none;
+}
+
+.footer{
+  font-size: 15px;
+  text-align: center;
+  color: rgb(245, 245, 245,0.7);
+}
+
+
+
